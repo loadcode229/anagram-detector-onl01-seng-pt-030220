@@ -10,4 +10,5 @@ class Anagram
     array = @word.select do |word|
     word.sort.split("") == word.sort.split("")
   end
+  end
 end
